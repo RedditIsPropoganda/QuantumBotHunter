@@ -303,6 +303,43 @@ class QuantumResistantEncryption:
    npm start
    ```
 
+   ## Running QuantumBotHunter
+
+QuantumBotHunter can be run in different modes using the `main.py` file. Before running, ensure you have set up the environment and installed all dependencies.
+
+1. Configure the system:
+   Edit the configuration file at `config/main_config.yaml` to set your desired parameters.
+
+2. Prepare your data:
+   Place your dataset in the `data/` directory and update the `data_path` in the configuration file.
+
+3. To train the model locally:
+   ```
+   python main.py train
+   ```
+
+4. To start federated learning:
+   ```
+   python main.py federated
+   ```
+
+5. To run the API service:
+   ```
+   python main.py api
+   ```
+
+6. To launch the dashboard:
+   ```
+   python main.py dashboard
+   ```
+
+You can specify a different configuration file using the `--config` flag:
+```
+python main.py train --config path/to/your/config.yaml
+```
+
+For detailed logs, check the console output. If you encounter any issues, please refer to the error messages in the logs or open an issue on our GitHub repository.
+
 ## Testing
 
 Run the test suite:
