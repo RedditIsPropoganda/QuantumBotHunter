@@ -1,0 +1,25 @@
+# Data configuration
+data_path: 'data/bot_data.csv'
+target_column: 'is_bot'
+
+# Model configuration
+hidden_dim: 50
+epochs: 10
+model_save_path: 'models/bot_detection_model.pth'
+
+# API configuration
+api_host: '0.0.0.0'
+api_port: 8000
+
+# Dashboard configuration
+dashboard_host: 'localhost'
+dashboard_port: 3000
+
+# Federated Learning configuration
+num_rounds: 100
+min_fit_clients: 8
+min_evaluate_clients: 8
+min_available_clients: 10
+
+# Quantum-resistant encryption configuration
+quantum_resistant_algo: 'kyber512'
