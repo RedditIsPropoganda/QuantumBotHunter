@@ -16,7 +16,7 @@ We take the security of QuantumBotHunter seriously. If you have discovered a sec
 **Please do the following:**
 
 1. **Do not** publicly disclose the vulnerability.
-2. Send a description of the vulnerability to [your-email@example.com].
+2. Send a description of the vulnerability to [placeholder for now].
 3. Include steps to reproduce the issue if possible.
 4. Allow us reasonable time to respond and address the issue before any public disclosure.
 
